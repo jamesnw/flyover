@@ -1,0 +1,56 @@
+#player {
+  width: 100%;
+  margin-bottom: 1em;
+}
+ol {
+  list-style: none;
+  padding-left: 0;
+}
+@media screen and (prefers-reduced-motion: no-preference) {
+  @view-transition {
+    navigation: auto;
+  }
+}
+@keyframes move-out {
+  from {
+    transform: scale(100%);
+    opacity: 1;
+  }
+
+  to {
+    transform: scale(0%);
+    opacity: 0;
+  }
+}
+
+@keyframes move-in {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+header {
+  view-transition-name: header;
+}
+
+/* Apply the custom animation to the old and new page states */
+
+::view-transition-old(root) {
+  animation: 0.4s ease-in both move-out;
+}
+
+::view-transition-new(root) {
+  animation: 0.4s ease-in both move-in;
+}
+::view-transition-old(header) {
+  animation: none;
+}
+
+::view-transition-new(header) {
+  animation: none;
+}

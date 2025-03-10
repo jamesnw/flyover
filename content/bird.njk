@@ -1,0 +1,18 @@
+---yml
+pagination:
+  data: collections.birds
+  size: 1
+  alias: bird
+permalink: "birds/{{ bird | slugify }}/"
+layout: layouts/base.njk
+---
+
+<h1>{{ bird }}</h1>
+
+<ul>
+  {%- for item in collections.birds[bird] -%}
+    <li>
+      <a href="{{ item.call.url }}">{{item.call.data.callDate or 'No Date' }}</a>
+    </li>
+  {%- endfor -%}
+</ul>

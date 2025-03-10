@@ -1,0 +1,16 @@
+---yml
+layout: layouts/base.njk
+---
+<h1 @text="fileId"></h1>
+
+<main >
+  Hi!
+  <figure webc:for="(detection, index) of detections" @text="myIndex">
+    <audio controls :src="detection.output_path" :@id="detection.output_path"></audio>
+    <span @text="detection.start_sec"></span>
+    <span @text="detection.end_sec"></span>
+    <span @text="detection.output_path"></span>
+    <span @text="detection.species"></span>
+  </figure>
+
+</main>

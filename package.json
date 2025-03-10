@@ -1,0 +1,40 @@
+{
+  "name": "call-bird-hotline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "call.js",
+  "scripts": {
+    "call": "node src/tw-call.js",
+    "check": "node src/check-for-updates.js",
+    "serve": "eleventy --serve",
+    "build": "eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier . --write",
+    "eslint": "eslint --fix",
+    "format": "npm run eslint;npm run prettier"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@picocss/pico": "^2.0.6",
+    "dotenv": "^16.4.5",
+    "string-similarity-js": "^2.1.4",
+    "twilio": "^5.3.3",
+    "whisper-node": "^1.1.1",
+    "yaml": "^2.5.1"
+  },
+  "devDependencies": {
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "@11ty/eleventy-plugin-bundle": "^3.0.0",
+    "@11ty/eleventy-plugin-rss": "^2.0.2",
+    "@11ty/eleventy-plugin-webc": "^0.11.2",
+    "@eslint/js": "^9.12.0",
+    "@types/node": "^22.7.6",
+    "eslint": "^9.12.0",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.10.0",
+    "prettier": "3.3.3"
+  }
+}
