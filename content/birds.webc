@@ -1,0 +1,14 @@
+---yml
+layout: layouts/base.njk
+eleventyNavigation:
+  key: Birds
+  order: 2
+---
+
+<h1>Birds</h1>
+
+<ul>
+  <li webc:for="(name, bird) in collections.birds">
+    <a :href='url(`/birds/${name}`)' @text="speciesName(name)"></a>
+  </li>
+</ul>

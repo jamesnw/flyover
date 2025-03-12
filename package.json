@@ -21,8 +21,6 @@
     "@picocss/pico": "^2.0.6",
     "dotenv": "^16.4.5",
     "string-similarity-js": "^2.1.4",
-    "twilio": "^5.3.3",
-    "whisper-node": "^1.1.1",
     "yaml": "^2.5.1"
   },
   "devDependencies": {

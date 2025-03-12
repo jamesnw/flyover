@@ -3,14 +3,30 @@ layout: layouts/base.njk
 ---
 <h1 @text="fileId"></h1>
 
-<main >
-  Hi!
-  <figure webc:for="(detection, index) of detections" @text="myIndex">
+<main>
+  <div webc:for="(detection, index) of detections" class="detection">
+    <h2 @text="speciesName(detection.species)"></h2>
+    <img :src="detection.spectro_path" alt="Spectrogram of bird call" />
     <audio controls :src="detection.output_path" :@id="detection.output_path"></audio>
-    <span @text="detection.start_sec"></span>
-    <span @text="detection.end_sec"></span>
-    <span @text="detection.output_path"></span>
-    <span @text="detection.species"></span>
-  </figure>
+    <div class="times">
+      <div @text="formatSeconds(detection.start_sec)"></div>
+      <div @text="formatSeconds(detection.end_sec)"></div>
+    </div>    
+  </div>
 
 </main>
+
+<style webc:keep>
+  .times {
+    display: flex;
+    justify-content: space-between;
+  }
+main{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+audio {
+  width: 100%;
+}
+</style>

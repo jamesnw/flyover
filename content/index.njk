@@ -9,7 +9,7 @@ numberOfProjectsToShow: 8
 <h1>Recordings</h1>
 <ol reversed>
 {%- for recording in collections.recording | reverse -%}
-  <li><h2><a href="{{ recording.url }}">{{ recording.data.baddate or 'No date' }}</a></h2>
+  <li><h2><a href="{{ recording.url }}">{{ recording.data.fileId or 'No date' }}</a></h2>
   </li>
 {%- endfor -%}
 </ol>

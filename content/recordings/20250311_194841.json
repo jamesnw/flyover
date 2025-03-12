@@ -1,0 +1,59 @@
+{
+  "fileId": "20250311_194841",
+  "detections": [
+    {
+      "start_sec": 473.8,
+      "end_sec": 475.2,
+      "filename": "20250311_194841.WAV",
+      "path": "/Users/jamessw/dev/echoes/sounds/20250311_194841.WAV",
+      "order": "Charadriiformes",
+      "prob_order": 0.94241655,
+      "family": "Charadriidae",
+      "prob_family": 0.99560755,
+      "group": null,
+      "prob_group": null,
+      "species": "killde",
+      "prob_species": 0.9998611,
+      "predicted_category": "killde",
+      "prob": 0.9998611212,
+      "output_path": "/audio/20250311_194841_473.8_475.2.wav",
+      "spectro_path": "/spectrograms/20250311_194841_473.8_475.2.png"
+    },
+    {
+      "start_sec": 494.8,
+      "end_sec": 496.2,
+      "filename": "20250311_194841.WAV",
+      "path": "/Users/jamessw/dev/echoes/sounds/20250311_194841.WAV",
+      "order": "Charadriiformes",
+      "prob_order": 0.9617154,
+      "family": "Charadriidae",
+      "prob_family": 0.99844414,
+      "group": null,
+      "prob_group": null,
+      "species": "killde",
+      "prob_species": 0.9999839,
+      "predicted_category": "killde",
+      "prob": 0.9999839067,
+      "output_path": "/audio/20250311_194841_494.8_496.2.wav",
+      "spectro_path": "/spectrograms/20250311_194841_494.8_496.2.png"
+    },
+    {
+      "start_sec": 770.6,
+      "end_sec": 772.2,
+      "filename": "20250311_194841.WAV",
+      "path": "/Users/jamessw/dev/echoes/sounds/20250311_194841.WAV",
+      "order": "Passeriformes",
+      "prob_order": 0.96932393,
+      "family": "Parulidae",
+      "prob_family": 0.95220166,
+      "group": null,
+      "prob_group": null,
+      "species": "amered",
+      "prob_species": 0.8960127,
+      "predicted_category": "amered",
+      "prob": 0.8960127234,
+      "output_path": "/audio/20250311_194841_770.6_772.2.wav",
+      "spectro_path": "/spectrograms/20250311_194841_770.6_772.2.png"
+    }
+  ]
+}
