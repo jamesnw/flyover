@@ -1,0 +1,26 @@
+{
+  "filename": "20250314_020000",
+  "species_counts": {
+    "Broad-winged Hawk": 1
+  },
+  "detections": [
+    {
+      "start_sec": 2907.0,
+      "end_sec": 2910.0,
+      "order": null,
+      "prob_order": null,
+      "family": null,
+      "prob_family": null,
+      "group": null,
+      "prob_group": null,
+      "species": "Buteo platypterus",
+      "prob_species": null,
+      "predicted_category": "Broad-winged Hawk",
+      "prob": 0.56,
+      "nighthawk": null,
+      "birdnet": true,
+      "output_path": "/audio/20250314_020000_2907.0_2910.0.wav",
+      "spectro_path": "/spectrograms/20250314_020000_2907.0_2910.0.png"
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 ---yml
 layout: layouts/base.njk
 ---
-<h1 @text="fileId"></h1>
-
+<h1 @text="filename"></h1>
+<p>Note that these are all detections from AI, and may not be correct. This is a view meant for quickly viewing and validating potential unconfirmed birds.</p>
 <main>
   <div webc:for="(detection, index) of detections" class="detection">
     <h2 @text="speciesName(detection.species)"></h2>
@@ -11,7 +11,26 @@ layout: layouts/base.njk
     <div class="times">
       <div @text="formatSeconds(detection.start_sec)"></div>
       <div @text="formatSeconds(detection.end_sec)"></div>
-    </div>    
+    </div>
+    <dl class="detection-info">
+      <div><dt>Order</dt>
+      <dd @text="detection.order"></dd></div>
+      <div><dt>Family</dt>
+      <dd @text="detection.family"></dd></div>
+      <div><dt>Group</dt>
+      <dd><button class="group-popover-button" :popovertarget="'popover-'+index" @text="detection.group" webc:if="detection.group"></button></dd>
+      <aside class="group-popover" popover :id="'popover-'+index" @text={groupSpecies(detection.group)}></aside></div>
+      <div><dt>Species</dt>
+      <dd @text="sciToCommon(detection.species)"></dd></div>
+      <div><dt>Prob</dt>
+      <dd @text="Math.round(detection.prob * 1e4, 4)/1e2 + '%'"></dd></div>
+      <div><dt>Predictors</dt>
+      <dd>
+        <span webc:if="detection.nighthawk">Nighthawk</span>
+        <span webc:if="detection.birdnet">Birdnet</span>
+      </dd>
+    </div>
+    </dl>
   </div>
 
 </main>
@@ -20,6 +39,25 @@ layout: layouts/base.njk
   .times {
     display: flex;
     justify-content: space-between;
+  }
+  .detection-info {
+    display: flex;
+    gap: 1rem;
+  }
+  .detection-info div {
+    display: flex;
+    flex-direction: column;
+
+    dt{
+      font-weight: bold;
+    }
+
+    dd{
+      margin-left: 0;
+    }
+  }
+  .group-popover{
+    position-area: end;
   }
 main{
   display: flex;

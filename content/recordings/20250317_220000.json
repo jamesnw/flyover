@@ -1,0 +1,45 @@
+{
+  "filename": "20250317_220000",
+  "species_counts": {
+    "Great Horned Owl": 1,
+    "Red-breasted Nuthatch": 1
+  },
+  "detections": [
+    {
+      "start_sec": 1005.0,
+      "end_sec": 1008.0,
+      "order": null,
+      "prob_order": null,
+      "family": null,
+      "prob_family": null,
+      "group": null,
+      "prob_group": null,
+      "species": "Bubo virginianus",
+      "prob_species": null,
+      "predicted_category": "Great Horned Owl",
+      "prob": 0.8226,
+      "nighthawk": null,
+      "birdnet": true,
+      "output_path": "/audio/20250317_220000_1005.0_1008.0.wav",
+      "spectro_path": "/spectrograms/20250317_220000_1005.0_1008.0.png"
+    },
+    {
+      "start_sec": 2778.0,
+      "end_sec": 2781.0,
+      "order": null,
+      "prob_order": null,
+      "family": null,
+      "prob_family": null,
+      "group": null,
+      "prob_group": null,
+      "species": "Sitta canadensis",
+      "prob_species": null,
+      "predicted_category": "Red-breasted Nuthatch",
+      "prob": 0.2822,
+      "nighthawk": null,
+      "birdnet": true,
+      "output_path": "/audio/20250317_220000_2778.0_2781.0.wav",
+      "spectro_path": "/spectrograms/20250317_220000_2778.0_2781.0.png"
+    }
+  ]
+}

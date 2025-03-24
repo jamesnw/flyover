@@ -1,0 +1,45 @@
+{
+  "filename": "20250314_040000",
+  "species_counts": {
+    "Passeriformes": 1,
+    "Mallard": 1
+  },
+  "detections": [
+    {
+      "start_sec": 1126.6,
+      "end_sec": 1128.4,
+      "order": "Passeriformes",
+      "prob_order": 0.936715,
+      "family": null,
+      "prob_family": null,
+      "group": null,
+      "prob_group": null,
+      "species": null,
+      "prob_species": null,
+      "predicted_category": "Passeriformes",
+      "prob": 0.9367150068,
+      "nighthawk": true,
+      "birdnet": null,
+      "output_path": "/audio/20250314_040000_1126.6_1128.4.wav",
+      "spectro_path": "/spectrograms/20250314_040000_1126.6_1128.4.png"
+    },
+    {
+      "start_sec": 3441.0,
+      "end_sec": 3444.0,
+      "order": null,
+      "prob_order": null,
+      "family": null,
+      "prob_family": null,
+      "group": null,
+      "prob_group": null,
+      "species": "Anas platyrhynchos",
+      "prob_species": null,
+      "predicted_category": "Mallard",
+      "prob": 0.2627,
+      "nighthawk": null,
+      "birdnet": true,
+      "output_path": "/audio/20250314_040000_3441.0_3444.0.wav",
+      "spectro_path": "/spectrograms/20250314_040000_3441.0_3444.0.png"
+    }
+  ]
+}

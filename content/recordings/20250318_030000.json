@@ -1,0 +1,82 @@
+{
+  "filename": "20250318_030000",
+  "species_counts": {
+    "Passeriformes": 2,
+    "White-crowned Sparrow": 1,
+    "Parulidae": 1
+  },
+  "detections": [
+    {
+      "start_sec": 309.0,
+      "end_sec": 312.0,
+      "order": null,
+      "prob_order": null,
+      "family": null,
+      "prob_family": null,
+      "group": null,
+      "prob_group": null,
+      "species": "Zonotrichia leucophrys",
+      "prob_species": null,
+      "predicted_category": "White-crowned Sparrow",
+      "prob": 0.67,
+      "nighthawk": null,
+      "birdnet": true,
+      "output_path": "/audio/20250318_030000_309.0_312.0.wav",
+      "spectro_path": "/spectrograms/20250318_030000_309.0_312.0.png"
+    },
+    {
+      "start_sec": 2921.6,
+      "end_sec": 2923.0,
+      "order": "Passeriformes",
+      "prob_order": 0.8965247,
+      "family": null,
+      "prob_family": null,
+      "group": null,
+      "prob_group": null,
+      "species": null,
+      "prob_species": null,
+      "predicted_category": "Passeriformes",
+      "prob": 0.8965247273,
+      "nighthawk": true,
+      "birdnet": null,
+      "output_path": "/audio/20250318_030000_2921.6_2923.0.wav",
+      "spectro_path": "/spectrograms/20250318_030000_2921.6_2923.0.png"
+    },
+    {
+      "start_sec": 3285.0,
+      "end_sec": 3286.6,
+      "order": "Passeriformes",
+      "prob_order": 0.9014792,
+      "family": null,
+      "prob_family": null,
+      "group": null,
+      "prob_group": null,
+      "species": null,
+      "prob_species": null,
+      "predicted_category": "Passeriformes",
+      "prob": 0.9014791846,
+      "nighthawk": true,
+      "birdnet": null,
+      "output_path": "/audio/20250318_030000_3285.0_3286.6.wav",
+      "spectro_path": "/spectrograms/20250318_030000_3285.0_3286.6.png"
+    },
+    {
+      "start_sec": 3363.4,
+      "end_sec": 3365.2,
+      "order": "Passeriformes",
+      "prob_order": 0.96930224,
+      "family": "Parulidae",
+      "prob_family": 0.9483409,
+      "group": null,
+      "prob_group": null,
+      "species": null,
+      "prob_species": null,
+      "predicted_category": "Parulidae",
+      "prob": 0.9483408928,
+      "nighthawk": true,
+      "birdnet": null,
+      "output_path": "/audio/20250318_030000_3363.4_3365.2.wav",
+      "spectro_path": "/spectrograms/20250318_030000_3363.4_3365.2.png"
+    }
+  ]
+}

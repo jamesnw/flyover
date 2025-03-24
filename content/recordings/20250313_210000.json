@@ -1,0 +1,64 @@
+{
+  "filename": "20250313_210000",
+  "species_counts": {
+    "Passeriformes": 1,
+    "killde": 1,
+    "Killdeer": 1
+  },
+  "detections": [
+    {
+      "start_sec": 1182.2,
+      "end_sec": 1183.6,
+      "order": "Passeriformes",
+      "prob_order": 0.87319916,
+      "family": null,
+      "prob_family": null,
+      "group": null,
+      "prob_group": null,
+      "species": null,
+      "prob_species": null,
+      "predicted_category": "Passeriformes",
+      "prob": 0.8731991649,
+      "nighthawk": true,
+      "birdnet": null,
+      "output_path": "/audio/20250313_210000_1182.2_1183.6.wav",
+      "spectro_path": "/spectrograms/20250313_210000_1182.2_1183.6.png"
+    },
+    {
+      "start_sec": 1713.4,
+      "end_sec": 1715.0,
+      "order": "Charadriiformes",
+      "prob_order": 0.93584764,
+      "family": "Charadriidae",
+      "prob_family": 0.99429613,
+      "group": null,
+      "prob_group": null,
+      "species": "killde",
+      "prob_species": 0.99992824,
+      "predicted_category": "killde",
+      "prob": 0.999928236,
+      "nighthawk": true,
+      "birdnet": null,
+      "output_path": "/audio/20250313_210000_1713.4_1715.0.wav",
+      "spectro_path": "/spectrograms/20250313_210000_1713.4_1715.0.png"
+    },
+    {
+      "start_sec": 2061.0,
+      "end_sec": 2064.0,
+      "order": null,
+      "prob_order": null,
+      "family": null,
+      "prob_family": null,
+      "group": null,
+      "prob_group": null,
+      "species": "Charadrius vociferus",
+      "prob_species": null,
+      "predicted_category": "Killdeer",
+      "prob": 0.283,
+      "nighthawk": null,
+      "birdnet": true,
+      "output_path": "/audio/20250313_210000_2061.0_2064.0.wav",
+      "spectro_path": "/spectrograms/20250313_210000_2061.0_2064.0.png"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "filename": "20250322_020000",
+  "species_counts": {
+    "Parulidae": 1,
+    "Passeriformes": 1
+  },
+  "detections": [
+    {
+      "start_sec": 29.8,
+      "end_sec": 31.0,
+      "order": "Passeriformes",
+      "prob_order": 0.96984774,
+      "family": "Parulidae",
+      "prob_family": 0.9486782,
+      "group": null,
+      "prob_group": null,
+      "species": null,
+      "prob_species": null,
+      "predicted_category": "Parulidae",
+      "prob": 0.9486781955,
+      "nighthawk": true,
+      "birdnet": null,
+      "output_path": "/audio/20250322_020000_29.8_31.0.wav",
+      "spectro_path": "/spectrograms/20250322_020000_29.8_31.0.png"
+    },
+    {
+      "start_sec": 2044.0,
+      "end_sec": 2045.2,
+      "order": "Passeriformes",
+      "prob_order": 0.89086825,
+      "family": null,
+      "prob_family": null,
+      "group": null,
+      "prob_group": null,
+      "species": null,
+      "prob_species": null,
+      "predicted_category": "Passeriformes",
+      "prob": 0.8908682466,
+      "nighthawk": true,
+      "birdnet": null,
+      "output_path": "/audio/20250322_020000_2044.0_2045.2.wav",
+      "spectro_path": "/spectrograms/20250322_020000_2044.0_2045.2.png"
+    }
+  ]
+}

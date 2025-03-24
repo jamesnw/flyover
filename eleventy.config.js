@@ -5,6 +5,8 @@ import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
 import { EleventyRenderPlugin } from "@11ty/eleventy";
 import pluginWebc from "@11ty/eleventy-plugin-webc";
 import codes from "./_data/codes.js";
+import groups from "./_data/groups.js";
+import sciToCommon from "./_data/sciToCommon.js";
 import { formatSeconds } from "./_includes/utils/time.js";
 
 /** @param {import('@11ty/eleventy').UserConfig} eleventyConfig */
@@ -41,7 +43,9 @@ export default function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginWebc);
   eleventyConfig.addPlugin(EleventyRenderPlugin);
 
-  eleventyConfig.addFilter("speciesName", (code) => codes.get(code));
+  eleventyConfig.addFilter("speciesName", (code) => codes.get(code) || code);
+  eleventyConfig.addFilter("groupSpecies", (group) => groups[group]?.map(code=>codes.get(code) || code) || []);
+eleventyConfig.addFilter("sciToCommon", (sci) => sciToCommon.get(sci) || sci);
 
   eleventyConfig.addFilter("formatSeconds", formatSeconds)
 

@@ -1,0 +1,81 @@
+{
+  "filename": "20250317_230000",
+  "species_counts": {
+    "Passeriformes": 2,
+    "Parulidae": 2
+  },
+  "detections": [
+    {
+      "start_sec": 1097.2,
+      "end_sec": 1098.4,
+      "order": "Passeriformes",
+      "prob_order": 0.880687,
+      "family": null,
+      "prob_family": null,
+      "group": null,
+      "prob_group": null,
+      "species": null,
+      "prob_species": null,
+      "predicted_category": "Passeriformes",
+      "prob": 0.8806869984,
+      "nighthawk": true,
+      "birdnet": null,
+      "output_path": "/audio/20250317_230000_1097.2_1098.4.wav",
+      "spectro_path": "/spectrograms/20250317_230000_1097.2_1098.4.png"
+    },
+    {
+      "start_sec": 1097.6,
+      "end_sec": 1099.0,
+      "order": "Passeriformes",
+      "prob_order": 0.9478082,
+      "family": "Parulidae",
+      "prob_family": 0.8948247,
+      "group": null,
+      "prob_group": null,
+      "species": null,
+      "prob_species": null,
+      "predicted_category": "Parulidae",
+      "prob": 0.8948246837,
+      "nighthawk": true,
+      "birdnet": null,
+      "output_path": "/audio/20250317_230000_1097.6_1099.0.wav",
+      "spectro_path": "/spectrograms/20250317_230000_1097.6_1099.0.png"
+    },
+    {
+      "start_sec": 2395.2,
+      "end_sec": 2396.8,
+      "order": "Passeriformes",
+      "prob_order": 0.9368131,
+      "family": "Parulidae",
+      "prob_family": 0.835032,
+      "group": null,
+      "prob_group": null,
+      "species": null,
+      "prob_species": null,
+      "predicted_category": "Parulidae",
+      "prob": 0.8350319862,
+      "nighthawk": true,
+      "birdnet": null,
+      "output_path": "/audio/20250317_230000_2395.2_2396.8.wav",
+      "spectro_path": "/spectrograms/20250317_230000_2395.2_2396.8.png"
+    },
+    {
+      "start_sec": 3482.4,
+      "end_sec": 3484.0,
+      "order": "Passeriformes",
+      "prob_order": 0.94749576,
+      "family": null,
+      "prob_family": null,
+      "group": null,
+      "prob_group": null,
+      "species": null,
+      "prob_species": null,
+      "predicted_category": "Passeriformes",
+      "prob": 0.9474957585,
+      "nighthawk": true,
+      "birdnet": null,
+      "output_path": "/audio/20250317_230000_3482.4_3484.0.wav",
+      "spectro_path": "/spectrograms/20250317_230000_3482.4_3484.0.png"
+    }
+  ]
+}
