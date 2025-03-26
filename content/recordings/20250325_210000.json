@@ -1,0 +1,45 @@
+{
+  "filename": "20250325_210000",
+  "species_counts": {
+    "Passeriformes": 1,
+    "Common Grackle": 1
+  },
+  "detections": [
+    {
+      "start_sec": 1312.8,
+      "end_sec": 1314.0,
+      "order": "Passeriformes",
+      "prob_order": 0.9318836,
+      "family": null,
+      "prob_family": null,
+      "group": null,
+      "prob_group": null,
+      "species": null,
+      "prob_species": null,
+      "predicted_category": "Passeriformes",
+      "prob": 0.9318835735,
+      "nighthawk": true,
+      "birdnet": null,
+      "output_path": "/audio/20250325_210000_1312.8_1314.0.wav",
+      "spectro_path": "/spectrograms/20250325_210000_1312.8_1314.0.png"
+    },
+    {
+      "start_sec": 1533.0,
+      "end_sec": 1536.0,
+      "order": null,
+      "prob_order": null,
+      "family": null,
+      "prob_family": null,
+      "group": null,
+      "prob_group": null,
+      "species": "Quiscalus quiscula",
+      "prob_species": null,
+      "predicted_category": "Common Grackle",
+      "prob": 0.3367,
+      "nighthawk": null,
+      "birdnet": true,
+      "output_path": "/audio/20250325_210000_1533.0_1536.0.wav",
+      "spectro_path": "/spectrograms/20250325_210000_1533.0_1536.0.png"
+    }
+  ]
+}

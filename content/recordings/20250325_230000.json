@@ -1,0 +1,26 @@
+{
+  "filename": "20250325_230000",
+  "species_counts": {
+    "Great Horned Owl": 1
+  },
+  "detections": [
+    {
+      "start_sec": 21.0,
+      "end_sec": 24.0,
+      "order": null,
+      "prob_order": null,
+      "family": null,
+      "prob_family": null,
+      "group": null,
+      "prob_group": null,
+      "species": "Bubo virginianus",
+      "prob_species": null,
+      "predicted_category": "Great Horned Owl",
+      "prob": 0.7024,
+      "nighthawk": null,
+      "birdnet": true,
+      "output_path": "/audio/20250325_230000_21.0_24.0.wav",
+      "spectro_path": "/spectrograms/20250325_230000_21.0_24.0.png"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "filename": "20250326_030000",
+  "species_counts": {
+    "Passeriformes": 3
+  },
+  "detections": [
+    {
+      "start_sec": 1684.8,
+      "end_sec": 1686.2,
+      "order": "Passeriformes",
+      "prob_order": 0.848587,
+      "family": null,
+      "prob_family": null,
+      "group": null,
+      "prob_group": null,
+      "species": null,
+      "prob_species": null,
+      "predicted_category": "Passeriformes",
+      "prob": 0.8485869765,
+      "nighthawk": true,
+      "birdnet": null,
+      "output_path": "/audio/20250326_030000_1684.8_1686.2.wav",
+      "spectro_path": "/spectrograms/20250326_030000_1684.8_1686.2.png"
+    },
+    {
+      "start_sec": 1926.8,
+      "end_sec": 1928.2,
+      "order": "Passeriformes",
+      "prob_order": 0.8479858,
+      "family": null,
+      "prob_family": null,
+      "group": null,
+      "prob_group": null,
+      "species": null,
+      "prob_species": null,
+      "predicted_category": "Passeriformes",
+      "prob": 0.8479858041,
+      "nighthawk": true,
+      "birdnet": null,
+      "output_path": "/audio/20250326_030000_1926.8_1928.2.wav",
+      "spectro_path": "/spectrograms/20250326_030000_1926.8_1928.2.png"
+    },
+    {
+      "start_sec": 2051.8,
+      "end_sec": 2053.4,
+      "order": "Passeriformes",
+      "prob_order": 0.88686186,
+      "family": null,
+      "prob_family": null,
+      "group": null,
+      "prob_group": null,
+      "species": null,
+      "prob_species": null,
+      "predicted_category": "Passeriformes",
+      "prob": 0.8868618608,
+      "nighthawk": true,
+      "birdnet": null,
+      "output_path": "/audio/20250326_030000_2051.8_2053.4.wav",
+      "spectro_path": "/spectrograms/20250326_030000_2051.8_2053.4.png"
+    }
+  ]
+}
