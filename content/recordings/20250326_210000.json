@@ -1,0 +1,26 @@
+{
+  "filename": "20250326_210000",
+  "species_counts": {
+    "Red-breasted Nuthatch": 1
+  },
+  "detections": [
+    {
+      "start_sec": 1950.0,
+      "end_sec": 1953.0,
+      "order": null,
+      "prob_order": null,
+      "family": null,
+      "prob_family": null,
+      "group": null,
+      "prob_group": null,
+      "species": "Sitta canadensis",
+      "prob_species": null,
+      "predicted_category": "Red-breasted Nuthatch",
+      "prob": 0.2597,
+      "nighthawk": null,
+      "birdnet": true,
+      "output_path": "/audio/20250326_210000_1950.0_1953.0.wav",
+      "spectro_path": "/spectrograms/20250326_210000_1950.0_1953.0.png"
+    }
+  ]
+}

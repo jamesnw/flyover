@@ -1,0 +1,26 @@
+{
+  "filename": "20250327_040000",
+  "species_counts": {
+    "Killdeer": 1
+  },
+  "detections": [
+    {
+      "start_sec": 3492.0,
+      "end_sec": 3495.0,
+      "order": null,
+      "prob_order": null,
+      "family": null,
+      "prob_family": null,
+      "group": null,
+      "prob_group": null,
+      "species": "Charadrius vociferus",
+      "prob_species": null,
+      "predicted_category": "Killdeer",
+      "prob": 0.3151,
+      "nighthawk": null,
+      "birdnet": true,
+      "output_path": "/audio/20250327_040000_3492.0_3495.0.wav",
+      "spectro_path": "/spectrograms/20250327_040000_3492.0_3495.0.png"
+    }
+  ]
+}

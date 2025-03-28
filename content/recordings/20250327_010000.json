@@ -1,0 +1,26 @@
+{
+  "filename": "20250327_010000",
+  "species_counts": {
+    "Charadriiformes": 1
+  },
+  "detections": [
+    {
+      "start_sec": 1736.2,
+      "end_sec": 1737.6,
+      "order": "Charadriiformes",
+      "prob_order": 0.9744611,
+      "family": null,
+      "prob_family": null,
+      "group": null,
+      "prob_group": null,
+      "species": null,
+      "prob_species": null,
+      "predicted_category": "Charadriiformes",
+      "prob": 0.9744610786,
+      "nighthawk": true,
+      "birdnet": null,
+      "output_path": "/audio/20250327_010000_1736.2_1737.6.wav",
+      "spectro_path": "/spectrograms/20250327_010000_1736.2_1737.6.png"
+    }
+  ]
+}

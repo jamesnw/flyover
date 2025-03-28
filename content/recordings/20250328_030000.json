@@ -1,0 +1,82 @@
+{
+  "filename": "20250328_030000",
+  "species_counts": {
+    "Passeriformes": 2,
+    "Parulidae": 1,
+    "ZEEP": 1
+  },
+  "detections": [
+    {
+      "start_sec": 1042.2,
+      "end_sec": 1043.8,
+      "order": "Passeriformes",
+      "prob_order": 0.89748585,
+      "family": null,
+      "prob_family": null,
+      "group": null,
+      "prob_group": null,
+      "species": null,
+      "prob_species": null,
+      "predicted_category": "Passeriformes",
+      "prob": 0.8974858522,
+      "nighthawk": true,
+      "birdnet": null,
+      "output_path": "/audio/20250328_030000_1042.2_1043.8.wav",
+      "spectro_path": "/spectrograms/20250328_030000_1042.2_1043.8.png"
+    },
+    {
+      "start_sec": 1375.8,
+      "end_sec": 1377.0,
+      "order": "Passeriformes",
+      "prob_order": 0.92005986,
+      "family": null,
+      "prob_family": null,
+      "group": null,
+      "prob_group": null,
+      "species": null,
+      "prob_species": null,
+      "predicted_category": "Passeriformes",
+      "prob": 0.9200598598,
+      "nighthawk": true,
+      "birdnet": null,
+      "output_path": "/audio/20250328_030000_1375.8_1377.0.wav",
+      "spectro_path": "/spectrograms/20250328_030000_1375.8_1377.0.png"
+    },
+    {
+      "start_sec": 2259.2,
+      "end_sec": 2261.0,
+      "order": "Passeriformes",
+      "prob_order": 0.9613902,
+      "family": "Parulidae",
+      "prob_family": 0.94954056,
+      "group": null,
+      "prob_group": null,
+      "species": null,
+      "prob_species": null,
+      "predicted_category": "Parulidae",
+      "prob": 0.9495405555,
+      "nighthawk": true,
+      "birdnet": null,
+      "output_path": "/audio/20250328_030000_2259.2_2261.0.wav",
+      "spectro_path": "/spectrograms/20250328_030000_2259.2_2261.0.png"
+    },
+    {
+      "start_sec": 3350.0,
+      "end_sec": 3351.2,
+      "order": "Passeriformes",
+      "prob_order": 0.96681356,
+      "family": "Parulidae",
+      "prob_family": 0.9442385,
+      "group": "ZEEP",
+      "prob_group": 0.9053926,
+      "species": null,
+      "prob_species": null,
+      "predicted_category": "ZEEP",
+      "prob": 0.9053925872,
+      "nighthawk": true,
+      "birdnet": null,
+      "output_path": "/audio/20250328_030000_3350.0_3351.2.wav",
+      "spectro_path": "/spectrograms/20250328_030000_3350.0_3351.2.png"
+    }
+  ]
+}

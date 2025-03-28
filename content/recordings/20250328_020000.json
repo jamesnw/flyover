@@ -1,0 +1,82 @@
+{
+  "filename": "20250328_020000",
+  "species_counts": {
+    "White-crowned Sparrow": 2,
+    "Passeriformes": 1,
+    "savspa": 1
+  },
+  "detections": [
+    {
+      "start_sec": 417.0,
+      "end_sec": 420.0,
+      "order": null,
+      "prob_order": null,
+      "family": null,
+      "prob_family": null,
+      "group": null,
+      "prob_group": null,
+      "species": "Zonotrichia leucophrys",
+      "prob_species": null,
+      "predicted_category": "White-crowned Sparrow",
+      "prob": 0.2758,
+      "nighthawk": null,
+      "birdnet": true,
+      "output_path": "/audio/20250328_020000_417.0_420.0.wav",
+      "spectro_path": "/spectrograms/20250328_020000_417.0_420.0.png"
+    },
+    {
+      "start_sec": 627.0,
+      "end_sec": 630.0,
+      "order": null,
+      "prob_order": null,
+      "family": null,
+      "prob_family": null,
+      "group": null,
+      "prob_group": null,
+      "species": "Zonotrichia leucophrys",
+      "prob_species": null,
+      "predicted_category": "White-crowned Sparrow",
+      "prob": 0.2826,
+      "nighthawk": null,
+      "birdnet": true,
+      "output_path": "/audio/20250328_020000_627.0_630.0.wav",
+      "spectro_path": "/spectrograms/20250328_020000_627.0_630.0.png"
+    },
+    {
+      "start_sec": 1774.6,
+      "end_sec": 1776.2,
+      "order": "Passeriformes",
+      "prob_order": 0.8574681,
+      "family": null,
+      "prob_family": null,
+      "group": null,
+      "prob_group": null,
+      "species": null,
+      "prob_species": null,
+      "predicted_category": "Passeriformes",
+      "prob": 0.8574681282,
+      "nighthawk": true,
+      "birdnet": null,
+      "output_path": "/audio/20250328_020000_1774.6_1776.2.wav",
+      "spectro_path": "/spectrograms/20250328_020000_1774.6_1776.2.png"
+    },
+    {
+      "start_sec": 2870.0,
+      "end_sec": 2871.8,
+      "order": "Passeriformes",
+      "prob_order": 0.9721477,
+      "family": "Passerellidae",
+      "prob_family": 0.9954521,
+      "group": "DESP",
+      "prob_group": 0.99154526,
+      "species": "savspa",
+      "prob_species": 0.9983725,
+      "predicted_category": "savspa",
+      "prob": 0.9983724952,
+      "nighthawk": true,
+      "birdnet": null,
+      "output_path": "/audio/20250328_020000_2870.0_2871.8.wav",
+      "spectro_path": "/spectrograms/20250328_020000_2870.0_2871.8.png"
+    }
+  ]
+}

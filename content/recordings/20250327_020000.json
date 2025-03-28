@@ -1,0 +1,83 @@
+{
+  "filename": "20250327_020000",
+  "species_counts": {
+    "DBUP": 1,
+    "Parulidae": 1,
+    "Passeriformes": 1,
+    "Red-breasted Nuthatch": 1
+  },
+  "detections": [
+    {
+      "start_sec": 633.2,
+      "end_sec": 635.0,
+      "order": "Passeriformes",
+      "prob_order": 0.96183586,
+      "family": "Parulidae",
+      "prob_family": 0.9335417,
+      "group": "DBUP",
+      "prob_group": 0.8753086,
+      "species": null,
+      "prob_species": null,
+      "predicted_category": "DBUP",
+      "prob": 0.8753085732,
+      "nighthawk": true,
+      "birdnet": null,
+      "output_path": "/audio/20250327_020000_633.2_635.0.wav",
+      "spectro_path": "/spectrograms/20250327_020000_633.2_635.0.png"
+    },
+    {
+      "start_sec": 633.4,
+      "end_sec": 634.8,
+      "order": "Passeriformes",
+      "prob_order": 0.95751685,
+      "family": "Parulidae",
+      "prob_family": 0.9196346,
+      "group": null,
+      "prob_group": null,
+      "species": null,
+      "prob_species": null,
+      "predicted_category": "Parulidae",
+      "prob": 0.9196345806,
+      "nighthawk": true,
+      "birdnet": null,
+      "output_path": "/audio/20250327_020000_633.4_634.8.wav",
+      "spectro_path": "/spectrograms/20250327_020000_633.4_634.8.png"
+    },
+    {
+      "start_sec": 1666.6,
+      "end_sec": 1668.0,
+      "order": "Passeriformes",
+      "prob_order": 0.9649962,
+      "family": null,
+      "prob_family": null,
+      "group": null,
+      "prob_group": null,
+      "species": null,
+      "prob_species": null,
+      "predicted_category": "Passeriformes",
+      "prob": 0.9649962187,
+      "nighthawk": true,
+      "birdnet": null,
+      "output_path": "/audio/20250327_020000_1666.6_1668.0.wav",
+      "spectro_path": "/spectrograms/20250327_020000_1666.6_1668.0.png"
+    },
+    {
+      "start_sec": 3408.0,
+      "end_sec": 3411.0,
+      "order": null,
+      "prob_order": null,
+      "family": null,
+      "prob_family": null,
+      "group": null,
+      "prob_group": null,
+      "species": "Sitta canadensis",
+      "prob_species": null,
+      "predicted_category": "Red-breasted Nuthatch",
+      "prob": 0.3362,
+      "nighthawk": null,
+      "birdnet": true,
+      "output_path": "/audio/20250327_020000_3408.0_3411.0.wav",
+      "spectro_path": "/spectrograms/20250327_020000_3408.0_3411.0.png"
+    }
+  ]
+}
