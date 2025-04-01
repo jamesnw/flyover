@@ -18,10 +18,10 @@
   "license": "ISC",
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
-    "@picocss/pico": "^2.0.6",
-    "dotenv": "^16.4.5",
+    "@picocss/pico": "^2.1.1",
+    "dotenv": "^16.4.7",
     "string-similarity-js": "^2.1.4",
-    "yaml": "^2.5.1"
+    "yaml": "^2.7.1"
   },
   "devDependencies": {
     "@11ty/eleventy-navigation": "^1.0.3",
