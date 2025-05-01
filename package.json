@@ -19,7 +19,7 @@
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@picocss/pico": "^2.1.1",
-    "dotenv": "^16.4.7",
+    "dotenv": "^16.5.0",
     "string-similarity-js": "^2.1.4",
     "yaml": "^2.7.1"
   },
